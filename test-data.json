@@ -1,0 +1,10 @@
+{"source":"google-chat","space":"spaces/AAAAaaBBBCC","message":{"name":"spaces/AAAAaaBBBCC/messages/111222333444","text":"Standup in 10","thread":"spaces/AAAAaaBBBCC/threads/abcd1234"},"user":"users/1111111111","created":"2025-11-07T04:20:00Z"}
+{"source":"google-calendar","event":{"id":"cal_123","summary":"Budget review","start":"2025-11-07T15:00:00Z","end":"2025-11-07T15:30:00Z","attendees":["a@x.com","b@y.com"]}}
+{"source":"gmail","threadId":"1789abcdef","messageId":"1789abcdef.1","subject":"PO status","from":"pm@x.com","to":["you@x.com"],"snippet":"Can we ship Friday?","received":"2025-11-07T04:22:00Z"}
+{"source":"google-drive","fileId":"1AbCdEfGhI","title":"Q4 Plan","action":"updated","actor":"owner@x.com","updated":"2025-11-07T04:23:00Z"}
+{"source":"msteams","teamId":"team-123","channelId":"chan-abc","messageId":"m-777","text":"Daily standup now","user":"user@contoso.com","created":"2025-11-07T04:24:00Z"}
+{"source":"outlook-calendar","event":{"id":"evt-555","subject":"1:1 sync","start":"2025-11-07T16:00:00Z","end":"2025-11-07T16:30:00Z","organizer":"manager@contoso.com"}}
+{"source":"google-chat","space":"spaces/BBBBbbCCCCDD","message":{"name":"spaces/BBBBbbCCCCDD/messages/222333444555","text":"Draft the budget deck","thread":"spaces/BBBBbbCCCCDD/threads/efgh5678"},"user":"users/2222222222","created":"2025-11-07T05:00:00Z"}
+{"source":"gmail","threadId":"1890bcdef0","messageId":"1890bcdef0.2","subject":"Re: PO status","from":"you@x.com","to":["pm@x.com"],"snippet":"Friday works.","received":"2025-11-07T05:05:00Z"}
+{"source":"google-calendar","event":{"id":"cal_124","summary":"Client sync","start":"2025-11-07T17:00:00Z","end":"2025-11-07T17:30:00Z","attendees":["you@x.com","client@corp.com"]}}
+{"source":"google-drive","fileId":"1ZyXwVuTsR","title":"Risk Register","action":"commented","actor":"analyst@x.com","updated":"2025-11-07T05:10:00Z"}

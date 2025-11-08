@@ -1,0 +1,90 @@
+# --- Python (from GitHub's template, trimmed) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+__pypackages__/
+
+# Package/build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers & linters
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+
+# Cython / debugging
+cython_debug/
+
+# Documentation builds
+/site
+
+# --- FastAPI / local runtime ---
+# Uvicorn/uvicorn-gunicorn configs or logs
+*.log
+
+# --- Secrets & local config (NEVER commit credentials) ---
+.env
+.env.*
+*.secret
+*.secrets
+secrets/
+*.key
+*.pem
+*.p12
+*.crt
+# GCP service account keys (don’t store these in repo)
+*service-account*.json
+*.sa.json
+*.gcloud.json
+
+# --- Editors/IDEs ---
+# VS Code: ignore all by default; un-comment lines below if you want to share specific files
+.vscode/
+# !.vscode/extensions.json
+# !.vscode/settings.json
+# JetBrains
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+.dockerignore
+
+# --- Node bits (if you add a tiny frontend or tooling) ---
+node_modules/
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Misc cache ---
+*.swp
+*.swo
