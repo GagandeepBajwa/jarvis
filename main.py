@@ -19,19 +19,19 @@ from google.cloud import aiplatform
 from google.cloud import aiplatform_v1
 
 # ----- Config via env -----
-PROJECT_ID = os.getenv("PROJECT_ID", "us-con-gcp-sbx-0001192-100925")
-LOCATION = os.getenv("LOCATION", "us-central1")
-BQ_DATASET_RAW = os.getenv("BQ_DATASET_RAW", "ca_hk_team2_jrvs_raw")
-BQ_DATASET_DERIVED = os.getenv("BQ_DATASET_DERIVED", "ca_hk_team2_jrvs_derived")
-BQ_DATASET_ACTIONS = os.getenv("BQ_DATASET_ACTIONS", "ca_hk_team2_jrvs_actions")
+PROJECT_ID = os.getenv("PROJECT_ID", "")
+LOCATION = os.getenv("LOCATION", "")
+BQ_DATASET_RAW = os.getenv("BQ_DATASET_RAW", "")
+BQ_DATASET_DERIVED = os.getenv("BQ_DATASET_DERIVED", "")
+BQ_DATASET_ACTIONS = os.getenv("BQ_DATASET_ACTIONS", "")
 
 # Embeddings / Vector Search
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "gemini-embedding-001")  # or text-embedding-005
 EMBEDDING_DIM = int(os.getenv("EMBEDDING_DIM", "3072"))
-VERTEX_INDEX_ENDPOINT = os.getenv("VERTEX_INDEX_ENDPOINT", "projects/689171124523/locations/us-central1/indexEndpoints/6767417103147335680")  # full resource name
-VERTEX_INDEX_ID = os.getenv("VERTEX_INDEX_ID", "ca_hk_team2_jrvs_stream_1762534755782")              # deployed index id on endpoint
-VERTEX_INDEX_NAME = os.getenv("VERTEX_INDEX_NAME", "projects/689171124523/locations/us-central1/indexes/2576492194437267456")   # index resource name
-VERTEX_API_ENDPOINT = os.getenv("VERTEX_API_ENDPOINT", "552273665.us-central1-689171124523.vdb.vertexai.goog")
+VERTEX_INDEX_ENDPOINT = os.getenv("VERTEX_INDEX_ENDPOINT", "")  # full resource name
+VERTEX_INDEX_ID = os.getenv("VERTEX_INDEX_ID", "")              # deployed index id on endpoint
+VERTEX_INDEX_NAME = os.getenv("VERTEX_INDEX_NAME", "")   # index resource name
+VERTEX_API_ENDPOINT = os.getenv("VERTEX_API_ENDPOINT", "")
 
 # Optional basic protection for Pub/Sub & Chat
 VERIFY_PUBSUB_HEADER = os.getenv("VERIFY_PUBSUB_HEADER", "false").lower() == "true"
